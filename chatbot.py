@@ -13,7 +13,7 @@ load_dotenv()
 CHROMA_PATH = r"chroma_db"
 
 # ✅ Secure API key (FIXED)
-client = Groq(api_key="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")
+client = Groq(api_key="your-api-key")
 
 # ✅ Embeddings
 embeddings_model = HuggingFaceEmbeddings(
